@@ -1,6 +1,6 @@
 module.exports = {
     jwt: {
-        secret: env.JWT_SECRET,
+        secret: process.env.JWT_SECRET,
         tokens: {
             access: {
                 type: "access",
